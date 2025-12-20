@@ -2,6 +2,13 @@
     "$schema": "https://schemas.wp.org/wp/6.9/theme.json",
     "version": 3,
     "settings": {
+        "blocks": {
+            "core/navigation":{
+                "spacing": {
+                    "blockGap": true
+                }
+            }
+        },
         "appearanceTools": true,
         "color": {
             "custom": true,
@@ -49,6 +56,45 @@
             "wideSize": "1400px"
         },
         "spacing": {
+            "defaultSpacingSizes": false,
+			"spacingSizes": [
+                {
+                    "name": "Tiny",
+                    "size": "0.625rem",
+                    "slug": "tiny"
+                },
+                {
+                    "name": "X-Small",
+                    "size": "1.25rem",
+                    "slug": "x-small"
+                },
+                {
+                    "name": "Small",
+                    "size": "1.875rem",
+                    "slug": "small"
+                },
+                {
+                    "name": "Regular",
+                    "size": "clamp(1.875rem, 5vw, 3.125rem)",
+                    "slug": "regular"
+                },
+                {
+                    "name": "Large",
+                    "size": "clamp(1.875rem, 7vw, 4.375rem)",
+                    "slug": "large"
+                },
+                {
+                    "name": "X-Large",
+                    "size": "clamp(3.125rem, 7vw, 5.625rem)",
+                    "slug": "x-large"
+                },
+                {
+                    "name": "Social Distancing",
+                    "size": "clamp(4.375rem, 10vw, 8.75rem)",
+                    "slug": "xx-large"
+                }
+            ],
+            "blockGap": true,
             "units": [
                 "%",
                 "px",
@@ -246,6 +292,16 @@
         "useRootPaddingAwareAlignments": true
     },
     "styles": {
+        "spacing": {
+            "blockGap": "var:preset|spacing|x-small"
+        },
+        "blocks": {
+            "core/navigation":{
+                "spacing": {
+                    "blockGap": "var:preset|spacing|x-small"
+                }
+            }
+        },
         "color": {
             "background": "var(--wp--preset--color--zk-background)",
             "text": "var(--wp--preset--color--zk-text)"

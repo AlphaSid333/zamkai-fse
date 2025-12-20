@@ -13,7 +13,7 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center"} -->
-<div class="wp-block-column is-vertically-aligned-center"><!-- wp:navigation {"ref":8,"layout":{"type":"flex","justifyContent":"center"}} /--></div>
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:navigation {"ref":4,"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"flex","justifyContent":"center"}} /--></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center"} -->
