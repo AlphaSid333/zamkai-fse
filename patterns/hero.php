@@ -11,8 +11,8 @@
 <h2 class="wp-block-heading has-text-align-center has-ginormasauras-font-size">The Philosopy of Grit</h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center">Against all odds, you sail the sea. Hardships befall, such is the Zamkai Odyssey</p>
+<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"0","bottom":"0","left":"0","right":"0"}}}} -->
+<p class="has-text-align-center" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0">Against all odds, you sail the sea. Hardships befall, such is the Zamkai Odyssey</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->

@@ -301,13 +301,6 @@
                     "blockGap": "var:preset|spacing|x-small"
                 }
             },
-            "core/paragraph":{
-                "spacing": {
-                    "margin": {
-                        "top": "0px"
-                    }
-                }
-            },
             "core/button":{
                 "border": {
                     "radius": "0.5rem"
