@@ -300,6 +300,18 @@
                 "spacing": {
                     "blockGap": "var:preset|spacing|x-small"
                 }
+            },
+            "core/paragraph":{
+                "spacing": {
+                    "margin": {
+                        "top": "0px"
+                    }
+                }
+            },
+            "core/button":{
+                "border": {
+                    "radius": "0.5rem"
+                }
             }
         },
         "color": {
@@ -320,22 +332,38 @@
             },
             "h1": {
                 "typography": {
-                    "fontSize": "var(--wp--preset--font-size--big)"
+                    "fontSize": "var(--wp--preset--font-size--humongasauras)",
+                    "letterSpacing": "2px"
                 }
             },
             "h2": {
                 "typography": {
-                    "fontSize": "var(--wp--preset--font-size--large)"
+                    "fontSize": "var(--wp--preset--font-size--big)",
+                    "letterSpacing": "2px"
                 }
             },
             "h3": {
                 "typography": {
-                    "fontSize": "var(--wp--preset--font-size--medium)"
+                    "fontSize": "var(--wp--preset--font-size--XL)",
+                    "letterSpacing": "2px"
                 }
             },
             "h4": {
                 "typography": {
-                    "fontSize": "var(--wp--preset--font-size--small)"
+                    "fontSize": "var(--wp--preset--font-size--large)",
+                    "letterSpacing": "2px"
+                }
+            },
+            "h5":{
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--medium)",
+                    "letterSpacing": "2px"
+                }
+            },
+            "h6":{
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--normal)",
+                    "letterSpacing": "2px"
                 }
             },
             "heading": {
@@ -344,7 +372,8 @@
                 },
                 "typography": {
                     "fontFamily": "var(--wp--preset--font-family--instrument-serif)",
-                    "letterSpacing": "2px"
+                    "letterSpacing": "2px",
+                    "textTransform": "upperCase"
                 }
             },
             "link": {
@@ -365,11 +394,23 @@
     "templateParts": [
         {
             "area": "header",
+            "title": "Header",
             "name": "header"
         },
         {
             "area": "footer",
+            "title": "Footer",
             "name": "footer"
         }
+    ],
+    "customTemplates": [
+        {
+      "name": "full-width",
+      "title": "Full width",
+      "postTypes": [
+        "page",
+        "post"
+      ]
+    }
     ]
 }
