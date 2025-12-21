@@ -2,12 +2,12 @@
 /**
  * Title: Hero Section
  * Slug: zamkai-fse/hero
- * Categories: Page
+ * Categories: Uncategorized
  */
 ?>
 
-<!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/hero.png' ) ); ?>","id":23,"dimRatio":70,"customOverlayColor":"#26231a","isUserOverlayColor":true,"focalPoint":{"x":0.5,"y":0.69999999999999996},"minHeight":670,"minHeightUnit":"px","contentPosition":"center center","sizeSlug":"large","align":"full","style":{"color":{"duotone":"unset"}},"layout":{"type":"default"}} -->
-<div class="wp-block-cover alignfull" style="min-height:670px"><img class="wp-block-cover__image-background wp-image-23 size-large" alt="" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/hero.png' ) ); ?>" style="object-position:50% 70%" data-object-fit="cover" data-object-position="50% 70%"/><span aria-hidden="true" class="wp-block-cover__background has-background-dim-70 has-background-dim" style="background-color:#26231a"></span><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","fontSize":"ginormasauras"} -->
+<!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/hero.png' ) ); ?>","id":23,"dimRatio":70,"customOverlayColor":"#000000","isUserOverlayColor":true,"focalPoint":{"x":0.5,"y":0.69999999999999996},"minHeight":670,"minHeightUnit":"px","contentPosition":"center center","sizeSlug":"large","align":"full","style":{"color":{"duotone":"unset"}},"layout":{"type":"default"}} -->
+<div class="wp-block-cover alignfull" style="min-height:670px"><img class="wp-block-cover__image-background wp-image-23 size-large" alt="" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/hero.png' ) ); ?>" style="object-position:50% 70%" data-object-fit="cover" data-object-position="50% 70%"/><span aria-hidden="true" class="wp-block-cover__background has-background-dim-70 has-background-dim" style="background-color:#000000"></span><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","fontSize":"ginormasauras"} -->
 <h2 class="wp-block-heading has-text-align-center has-ginormasauras-font-size">The Philosopy of Grit</h2>
 <!-- /wp:heading -->
 
