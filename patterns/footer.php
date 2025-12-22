@@ -6,9 +6,9 @@
  */
 ?>
 
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50","right":"var:preset|spacing|50"}}},"backgroundColor":"zk-background","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-zk-background-background-color has-background" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:columns {"verticalAlignment":null,"align":"wide"} -->
-<div class="wp-block-columns alignwide"><!-- wp:column {"verticalAlignment":"top"} -->
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"0rem","bottom":"0rem","left":"0rem","right":"0rem"}}},"backgroundColor":"zk-background","layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull has-zk-background-background-color has-background" style="padding-top:0rem;padding-right:0rem;padding-bottom:0rem;padding-left:0rem"><!-- wp:columns {"style":{"spacing":{"padding":{"right":"var:preset|spacing|regular","left":"var:preset|spacing|regular","top":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small"}}}} -->
+<div class="wp-block-columns" style="padding-top:var(--wp--preset--spacing--x-small);padding-right:var(--wp--preset--spacing--regular);padding-bottom:var(--wp--preset--spacing--x-small);padding-left:var(--wp--preset--spacing--regular)"><!-- wp:column {"verticalAlignment":"top"} -->
 <div class="wp-block-column is-vertically-aligned-top"><!-- wp:heading {"level":4} -->
 <h4 class="wp-block-heading">Quick Links</h4>
 <!-- /wp:heading -->
@@ -39,8 +39,8 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:separator {"align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}}} -->
-<hr class="wp-block-separator alignwide has-alpha-channel-opacity" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)"/>
+<!-- wp:separator {"align":"full","style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}}} -->
+<hr class="wp-block-separator alignfull has-alpha-channel-opacity" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)"/>
 <!-- /wp:separator -->
 
 <!-- wp:paragraph {"align":"center"} -->
