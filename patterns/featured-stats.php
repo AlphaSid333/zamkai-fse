@@ -2,7 +2,7 @@
 /**
  * Title: Featured Stats
  * Slug: zamkai-fse/featured-stats
- * Categories: Page
+ * Categories: Uncategorized
  */
 ?>
 
@@ -15,7 +15,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"500","lineHeight":"1.5"},"spacing":{"margin":{"top":"0px","bottom":"1.77rem"}}},"textColor":"zk-alt-text","fontSize":"Normal"} -->
-<p class="has-text-align-center has-zk-alt-text-color has-text-color has-normal-font-size" style="margin-top:0px;margin-bottom:1.77rem;font-style:normal;font-weight:500;line-height:1.5">Battles conquered</p>
+<p class="has-text-align-center has-zk-alt-text-color has-text-color has-normal-font-size" style="margin-top:0px;margin-bottom:1.77rem;font-style:normal;font-weight:500;line-height:1.5">Battles Conquered</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -25,7 +25,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"500","lineHeight":"1.5"},"spacing":{"margin":{"top":"0px","bottom":"1.77rem"}}},"textColor":"zk-alt-text","fontSize":"Normal"} -->
-<p class="has-text-align-center has-zk-alt-text-color has-text-color has-normal-font-size" style="margin-top:0px;margin-bottom:1.77rem;font-style:normal;font-weight:500;line-height:1.5">Poems written</p>
+<p class="has-text-align-center has-zk-alt-text-color has-text-color has-normal-font-size" style="margin-top:0px;margin-bottom:1.77rem;font-style:normal;font-weight:500;line-height:1.5">Poems Written</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
