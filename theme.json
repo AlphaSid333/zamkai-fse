@@ -20,12 +20,12 @@
                     "slug": "zk-primary"
                 },
                 {
-                    "color": "#ff1a1a",
+                    "color": "#6A0000",
                     "name": "Zamkai Seconday",
                     "slug": "zk-secondary"
                 },
                 {
-                    "color": "#6A0000",
+                    "color": "#d70000",
                     "name": "Zamkai Accent",
                     "slug": "zk-accent"
                 },
@@ -375,11 +375,11 @@
                 },
                 ":hover": {
                     "color": {
-                        "text": "var(--wp--preset--color--zk-secondary)"
+                        "text": "var(--wp--preset--color--zk-accent)"
                     }
                 },
                 "color": {
-                    "text": "var(--wp--preset--color--zk-accent)"
+                    "text": "var(--wp--preset--color--zk-secondary)"
                 }
             }
         },
