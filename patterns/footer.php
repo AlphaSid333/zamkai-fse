@@ -9,11 +9,27 @@
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"0rem","bottom":"0rem","left":"0rem","right":"0rem"}}},"backgroundColor":"zk-background","layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull has-zk-background-background-color has-background" style="padding-top:0rem;padding-right:0rem;padding-bottom:0rem;padding-left:0rem"><!-- wp:columns {"style":{"spacing":{"padding":{"right":"var:preset|spacing|regular","left":"var:preset|spacing|regular","top":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small"}}}} -->
 <div class="wp-block-columns" style="padding-top:var(--wp--preset--spacing--x-small);padding-right:var(--wp--preset--spacing--regular);padding-bottom:var(--wp--preset--spacing--x-small);padding-left:var(--wp--preset--spacing--regular)"><!-- wp:column {"verticalAlignment":"top"} -->
-<div class="wp-block-column is-vertically-aligned-top"><!-- wp:heading {"level":4} -->
-<h4 class="wp-block-heading">Quick Links</h4>
+<div class="wp-block-column is-vertically-aligned-top"><!-- wp:heading {"textAlign":"center","level":4} -->
+<h4 class="wp-block-heading has-text-align-center">Quick Links</h4>
 <!-- /wp:heading -->
 
-<!-- wp:navigation {"ref":4,"textColor":"zk-text","style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"flex","justifyContent":"left"}} /--></div>
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
+<div class="wp-block-group"><!-- wp:paragraph -->
+<p><a href="#">Home</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="#">About</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="#">Blog</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="#">Contact</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center"} -->
@@ -27,11 +43,11 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"top"} -->
-<div class="wp-block-column is-vertically-aligned-top"><!-- wp:heading {"textAlign":"right","level":4} -->
-<h4 class="wp-block-heading has-text-align-right">Follow Us</h4>
+<div class="wp-block-column is-vertically-aligned-top"><!-- wp:heading {"textAlign":"center","level":4} -->
+<h4 class="wp-block-heading has-text-align-center">Follow Us</h4>
 <!-- /wp:heading -->
 
-<!-- wp:social-links {"iconColor":"zk-primary","iconColorValue":"#e60000","className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"right"}} -->
+<!-- wp:social-links {"iconColor":"zk-secondary","iconColorValue":"#6A0000","className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"center"}} -->
 <ul class="wp-block-social-links has-icon-color is-style-logos-only"><!-- wp:social-link {"url":"https://facebook.com","service":"facebook"} /-->
 
 <!-- wp:social-link {"url":"https://twitter.com","service":"x"} /-->
