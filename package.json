@@ -1,0 +1,24 @@
+{
+  "name": "zamkai-fse",
+  "version": "1.0.0",
+  "description": "A block theme born of my need for a reliable theme for video making purposes. Clean, simple colors and patterns. \r Created by - The Zamkai Master",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "zip": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlphaSid333/zamkai-fse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlphaSid333/zamkai-fse/issues"
+  },
+  "homepage": "https://github.com/AlphaSid333/zamkai-fse#readme",
+  "dependencies": {
+    "grunt": "^1.6.1",
+    "grunt-contrib-compress": "^2.0.0"
+  }
+}

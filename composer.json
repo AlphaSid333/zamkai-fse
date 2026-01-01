@@ -1,0 +1,15 @@
+{
+    "name": "msi/zamkai-fse",
+    "autoload": {
+        "psr-4": {
+            "Msi\\ZamkaiFse\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "SidTGV",
+            "email": "siddhi.sharma@themegrill.com"
+        }
+    ],
+    "require": {}
+}
