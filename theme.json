@@ -1,15 +1,6 @@
 {
-    "$schema": "https://schemas.wp.org/wp/6.9/theme.json",
-    "version": 3,
-    "settings": {
-        "blocks": {
-            "core/navigation":{
-                "spacing": {
-                    "blockGap": true
-                }
-            }
-        },
-        "appearanceTools": true,
+	"$schema": "https.wp.org/wp/6.9/theme.json",
+	"settings": {
         "color": {
             "custom": true,
             "defaultPalette": false,
@@ -42,371 +33,96 @@
                 {
                     "color": "#333333",
                     "name": "Zamkai Text",
-                    "slug": "zk-text"
+                    "slug": "zk-text",
+                    "color": "#333333"
                 },
                 {
                     "color": "#ffffff",
                     "name": "Zamkai Alt Text",
-                    "slug": "zk-alt-text"
-                }
-            ]
-        },
-        "layout": {
-            "contentSize": "1170px",
-            "wideSize": "1400px"
-        },
-        "spacing": {
-            "defaultSpacingSizes": false,
-			"spacingSizes": [
-                {
-                    "name": "Tiny",
-                    "size": "0.625rem",
-                    "slug": "tiny"
-                },
-                {
-                    "name": "X-Small",
-                    "size": "1.25rem",
-                    "slug": "x-small"
-                },
-                {
-                    "name": "Small",
-                    "size": "1.875rem",
-                    "slug": "small"
-                },
-                {
-                    "name": "Regular",
-                    "size": "clamp(1.875rem, 5vw, 3.125rem)",
-                    "slug": "regular"
-                },
-                {
-                    "name": "Large",
-                    "size": "clamp(1.875rem, 7vw, 4.375rem)",
-                    "slug": "large"
-                },
-                {
-                    "name": "X-Large",
-                    "size": "clamp(3.125rem, 7vw, 5.625rem)",
-                    "slug": "x-large"
-                },
-                {
-                    "name": "Social Distancing",
-                    "size": "clamp(4.375rem, 10vw, 8.75rem)",
-                    "slug": "xx-large"
+                    "slug": "zk-alt-text",
+                    "color": "#ffffff"
                 }
             ],
-            "blockGap": true,
-            "units": [
-                "%",
-                "px",
-                "em",
-                "rem",
-                "vh",
-                "vw"
-            ]
-        },
-        "typography": {
-            "defaultFontSizes": false,
-            "fluid": true,
-            "fontFamilies": [
-                {
-                    "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
-                    "name": "System Font",
-                    "slug": "system-font"
-                },
-                {
-                    "name": "Instrument Sans",
-                    "slug": "instrument-sans",
-                    "fontFamily": "\"Instrument Sans\", sans-serif",
-                    "fontFace": [
-                        {
-                            "src": [
-                                "file:./assets/fonts/instrument-sans/instrument-sans-400-normal.woff2"
-                            ],
-                            "fontWeight": "400",
-                            "fontStyle": "normal",
-                            "fontFamily": "\"Instrument Sans\""
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/instrument-sans/instrument-sans-500-normal.woff2"
-                            ],
-                            "fontWeight": "500",
-                            "fontStyle": "normal",
-                            "fontFamily": "\"Instrument Sans\""
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/instrument-sans/instrument-sans-600-normal.woff2"
-                            ],
-                            "fontWeight": "600",
-                            "fontStyle": "normal",
-                            "fontFamily": "\"Instrument Sans\""
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/instrument-sans/instrument-sans-700-normal.woff2"
-                            ],
-                            "fontWeight": "700",
-                            "fontStyle": "normal",
-                            "fontFamily": "\"Instrument Sans\""
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/instrument-sans/instrument-sans-400-italic.woff2"
-                            ],
-                            "fontWeight": "400",
-                            "fontStyle": "italic",
-                            "fontFamily": "\"Instrument Sans\""
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/instrument-sans/instrument-sans-500-italic.woff2"
-                            ],
-                            "fontWeight": "500",
-                            "fontStyle": "italic",
-                            "fontFamily": "\"Instrument Sans\""
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/instrument-sans/instrument-sans-600-italic.woff2"
-                            ],
-                            "fontWeight": "600",
-                            "fontStyle": "italic",
-                            "fontFamily": "\"Instrument Sans\""
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/instrument-sans/instrument-sans-700-italic.woff2"
-                            ],
-                            "fontWeight": "700",
-                            "fontStyle": "italic",
-                            "fontFamily": "\"Instrument Sans\""
-                        }
-                    ]
-                },
-                {
-                    "name": "Instrument Serif",
-                    "slug": "instrument-serif",
-                    "fontFamily": "\"Instrument Serif\", serif",
-                    "fontFace": [
-                        {
-                            "src": [
-                                "file:./assets/fonts/instrument-serif/instrument-serif-400-normal.woff2"
-                            ],
-                            "fontWeight": "400",
-                            "fontStyle": "normal",
-                            "fontFamily": "\"Instrument Serif\""
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/instrument-serif/instrument-serif-400-italic.woff2"
-                            ],
-                            "fontWeight": "400",
-                            "fontStyle": "italic",
-                            "fontFamily": "\"Instrument Serif\""
-                        }
-                    ]
-                }
-            ],
-            "fontSizes": [
-				{
-					"fluid": {
-						"min": "0.75rem",
-						"max": "0.875rem"
-					},
-					"name": "Tiny",
-					"size": "0.75rem",
-					"slug": "tiny"
-				},
-				{
-					"fluid": {
-						"min": "0.875rem",
-						"max": "1rem"
-					},
-					"name": "Small",
-					"size": "0.875rem",
-					"slug": "small"
-				},
-				{
-					"fluid": false,
-					"name": "Normal",
-					"size": "1rem",
-					"slug": "Normal"
-				},
-				{
-					"fluid": {
-						"min": "1.125rem",
-						"max": "1.25rem"
-					},
-					"name": "Medium",
-					"size": "1.25rem",
-					"slug": "medium"
-				},
-				{
-					"fluid": {
-						"min": "1.375rem",
-						"max": "1.625rem"
-					},
-					"name": "Large",
-					"size": "1.5rem",
-					"slug": "large"
-				},
-				{
-					"fluid": {
-						"min": "1.75rem",
-						"max": "2.25rem"
-					},
-					"name": "XL",
-					"size": "2rem",
-					"slug": "x-large"
-				},
-				{
-					"fluid": {
-						"min": "2.25rem",
-						"max": "3rem"
-					},
-					"name": "Big",
-					"size": "2.5rem",
-					"slug": "big"
-				},
-				{
-					"fluid": {
-						"min": "2.5rem",
-						"max": "3.5rem"
-					},
-					"name": "Humongasauras",
-					"size": "3rem",
-					"slug": "humongasauras"
-				},
-				{
-					"fluid": {
-						"min": "3rem",
-						"max": "4.5rem"
-					},
-					"name": "Ginormasauras",
-					"size": "4rem",
-					"slug": "ginormasauras"
-				}
-			]
-        },
-        "useRootPaddingAwareAlignments": true
-    },
+            "defaultPalette": false, 
+            "custom": true 
+		},
+		"appearanceTools": true,
+		"layout": {
+			"contentSize": "620px",
+			"wideSize": "1000px"
+		},
+		"spacing": {
+			"units": [ "%", "px", "em", "rem", "vh", "vw" ]
+		},
+		"typography": {
+			"defaultFontSizes": false,
+			"fluid": true,
+			"fontSizes": [
+			{
+				"name": "Tiny",
+				"slug": "tiny",
+				"size": "0.875rem",
+				"fluid": { "min": "0.75rem", "max": "0.875rem" }
+			},
+			{
+				"name": "Small",
+				"slug": "small",
+				"size": "1rem",
+				"fluid": { "min": "0.875rem", "max": "1rem" }
+			},
+			{
+				"name": "Normal",
+				"slug": "normal",
+				"size": "1.125rem",
+				"fluid": { "min": "1rem", "max": "1.125rem" }
+			},
+			{
+				"name": "Medium",
+				"slug": "medium",
+				"size": "1.375rem",
+				"fluid": { "min": "1.125rem", "max": "1.375rem" }
+			},
+			{
+				"name": "Large",
+				"slug": "large",
+				"size": "2rem",
+				"fluid": { "min": "1.375rem", "max": "2rem" }
+			},
+			{
+				"name": "XL",
+				"slug": "xl",
+				"size": "3rem",
+				"fluid": { "min": "2rem", "max": "3rem" }
+			},
+			{
+				"name": "Humungous",
+				"slug": "humungous",
+				"size": "4.375rem",
+				"fluid": { "min": "2.5rem", "max": "4.375rem" }
+			},
+			{
+				"name": "Ginormasauras",
+				"slug": "ginormasauras",
+				"size": "4.688rem",
+				"fluid": { "min": "3rem", "max": "4.688rem" }
+			}
+		]
+		},
+		"useRootPaddingAwareAlignments": true
+	},
     "styles": {
-        "spacing": {
-            "blockGap": "var:preset|spacing|x-small"
-        },
-        "blocks": {
-            "core/navigation":{
-                "spacing": {
-                    "blockGap": "var:preset|spacing|x-small"
-                }
-            },
-            "core/button":{
-                "border": {
-                    "radius": "0.5rem"
-                }
-            }
-        },
         "color": {
-            "background": "var(--wp--preset--color--zk-background)",
-            "text": "var(--wp--preset--color--zk-text)"
-        },
-        "elements": {
-            "button": {
-                "color": {
-                    "background": "var(--wp--preset--color--zk-primary)",
-                    "text": "var(--wp--preset--color--zk-background)"
-                }
-            },
-            "caption": {
-                "color": {
-                    "text": "var(--wp--preset--color--zk-text)"
-                }
-            },
-            "h1": {
-                "typography": {
-                    "fontSize": "var(--wp--preset--font-size--humongasauras)",
-                    "letterSpacing": "2px"
-                }
-            },
-            "h2": {
-                "typography": {
-                    "fontSize": "var(--wp--preset--font-size--big)",
-                    "letterSpacing": "2px"
-                }
-            },
-            "h3": {
-                "typography": {
-                    "fontSize": "var(--wp--preset--font-size--x-large)",
-                    "letterSpacing": "2px"
-                }
-            },
-            "h4": {
-                "typography": {
-                    "fontSize": "var(--wp--preset--font-size--large)",
-                    "letterSpacing": "2px"
-                }
-            },
-            "h5":{
-                "typography": {
-                    "fontSize": "var(--wp--preset--font-size--medium)",
-                    "letterSpacing": "2px"
-                }
-            },
-            "h6":{
-                "typography": {
-                    "fontSize": "var(--wp--preset--font-size--normal)",
-                    "letterSpacing": "2px"
-                }
-            },
-            "heading": {
-                "color": {
-                    "text": "var(--wp--preset--color--zk-text)"
-                },
-                "typography": {
-                    "fontFamily": "var(--wp--preset--font-family--instrument-serif)",
-                    "letterSpacing": "2px",
-                    "textTransform": "upperCase"
-                }
-            },
-            "link": {
-                "typography": {
-                    "textDecoration": "none"
-                },
-                ":hover": {
-                    "color": {
-                        "text": "var(--wp--preset--color--zk-accent)"
-                    }
-                },
-                "color": {
-                    "text": "var(--wp--preset--color--zk-secondary)"
-                }
-            }
-        },
-        "typography": {
-            "fontFamily": "var(--wp--preset--font-family--instrument-sans)"
         }
     },
-    "templateParts": [
-        {
-            "area": "header",
-            "title": "Header",
-            "name": "header"
-        },
-        {
-            "area": "footer",
-            "title": "Footer",
-            "name": "footer"
-        }
-    ],
-    "customTemplates": [
-        {
-      "name": "full-width",
-      "title": "Full width",
-      "postTypes": [
-        "page",
-        "post"
-      ]
-    }
-    ]
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header"
+		},
+		{
+			"area": "footer",
+			"name": "footer"
+		}
+	],
+	"version": 3
 }
