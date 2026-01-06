@@ -13,23 +13,7 @@
 <h4 class="wp-block-heading has-text-align-center">Quick Links</h4>
 <!-- /wp:heading -->
 
-<!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
-<div class="wp-block-group"><!-- wp:paragraph -->
-<p><a href="#">Home</a></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><a href="#">About</a></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><a href="#">Blog</a></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><a href="#">Contact</a></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
+<!-- wp:navigation {"ref":4,"layout":{"type":"flex","justifyContent":"center"}} /--></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center"} -->
