@@ -9,29 +9,13 @@
 <!-- wp:group {"metadata":{"categories":["header"],"patternName":"zamkai-fse/header","name":"Header"},"style":{"border":{"top":{"style":"none","width":"0px"},"right":{"style":"none","width":"0px"},"bottom":{"color":"#858585","width":"1px"},"left":{"style":"none","width":"0px"}}},"layout":{"type":"default"}} -->
 <div class="wp-block-group" style="border-top-style:none;border-top-width:0px;border-right-style:none;border-right-width:0px;border-bottom-color:#858585;border-bottom-width:1px;border-left-style:none;border-left-width:0px"><!-- wp:columns {"verticalAlignment":"center","backgroundColor":"zk-dark-background"} -->
 <div class="wp-block-columns are-vertically-aligned-center has-zk-dark-background-background-color has-background"><!-- wp:column {"verticalAlignment":"center"} -->
-<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"textAlign":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|zk-alt-text"}}}},"textColor":"zk-alt-text"} -->
-<h2 class="wp-block-heading has-text-align-center has-zk-alt-text-color has-text-color has-link-color"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-zk-primary-color">ZAMKAI</mark> FSE</a></h2>
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"textAlign":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|zk-alt-text"}}},"typography":{"textDecoration":"none"}},"textColor":"zk-alt-text"} -->
+<h2 class="wp-block-heading has-text-align-center has-zk-alt-text-color has-text-color has-link-color" style="text-decoration:none"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-zk-primary-color">ZAMKAI</mark> FSE</h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|zk-alt-text"}}}},"textColor":"zk-alt-text"} -->
-<div class="wp-block-column is-vertically-aligned-center has-zk-alt-text-color has-text-color has-link-color"><!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
-<div class="wp-block-group"><!-- wp:paragraph -->
-<p><a href="#">Home</a></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><a href="#">About</a></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><a href="#">Blog</a></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><a href="#">Contact</a></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
+<div class="wp-block-column is-vertically-aligned-center has-zk-alt-text-color has-text-color has-link-color"><!-- wp:navigation {"ref":4,"layout":{"type":"flex","justifyContent":"center"}} /--></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center"} -->

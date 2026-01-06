@@ -41,7 +41,3 @@
 <!-- /wp:columns --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
-
-<!-- wp:paragraph -->
-<p></p>
-<!-- /wp:paragraph -->

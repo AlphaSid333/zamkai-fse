@@ -373,7 +373,7 @@
             },
             "link": {
                 "typography": {
-                    "textDecoration": "none"
+                    
                 },
                 ":hover": {
                     "color": {
