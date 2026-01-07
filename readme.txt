@@ -34,3 +34,32 @@ This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details: http://www.gnu.org/licenses/gpl-2.0.html 
+
+== Resources ==
+
+* All fonts provided by the Google Fonts directory and are under the SIL Open Font License
+
+  Google Font: Instrument Sans
+  Copyright, The The Instrument Sans Project Authors
+  License: http://scripts.sil.org/OFL
+  Source: https://fonts.google.com/specimen/Instrument+Sans 
+
+  Google Font: Instrument Serif
+  Copyright, The The Instrument Serif Project Authors
+  License: http://scripts.sil.org/OFL
+  Source: https://fonts.google.com/specimen/Instrument+Serif
+
+* The Following images in this theme are original works created by the theme author, including those generated with AI tools. They are released under GPLv2 or later (or GPLv3 compatible), the same as the theme itself.
+Copyright ZamkaiMaster, 2026
+
+    Image: hero.png
+    Source: https://zamgodly.com/
+    License: https://zamgodly.com/about/#license-image 
+
+    Image: poem.png
+    Source: https://zamgodly.com/2025/09/15/until-the-dust-settled/
+    License: https://zamgodly.com/about/#license-image 
+
+    Image: poem-2.png
+    Source: https://zamgodly.com/2025/09/16/true-to-my-poems/
+    License: https://zamgodly.com/about/#license-image 
