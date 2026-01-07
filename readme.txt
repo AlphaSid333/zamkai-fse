@@ -54,12 +54,12 @@ Copyright ZamkaiMaster, 2026
 
     Image: hero.png
     Source: https://zamgodly.com/
-    Licese: https://zamgodly.com/about/#license-image 
+    License: https://zamgodly.com/about/#license-image 
 
     Image: poem.png
     Source: https://zamgodly.com/2025/09/15/until-the-dust-settled/
-    Licese: https://zamgodly.com/about/#license-image 
+    License: https://zamgodly.com/about/#license-image 
 
     Image: poem-2.png
     Source: https://zamgodly.com/2025/09/16/true-to-my-poems/
-    Licese: https://zamgodly.com/about/#license-image 
+    License: https://zamgodly.com/about/#license-image 
