@@ -10,7 +10,7 @@
 <div class="wp-block-group" style="border-top-style:none;border-top-width:0px;border-right-style:none;border-right-width:0px;border-bottom-color:#858585;border-bottom-width:1px;border-left-style:none;border-left-width:0px"><!-- wp:columns {"verticalAlignment":"center","backgroundColor":"zk-dark-background"} -->
 <div class="wp-block-columns are-vertically-aligned-center has-zk-dark-background-background-color has-background"><!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"textAlign":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|zk-alt-text"}}},"typography":{"textDecoration":"none"}},"textColor":"zk-alt-text"} -->
-<h2 class="wp-block-heading has-text-align-center has-zk-alt-text-color has-text-color has-link-color" style="text-decoration:none"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-zk-primary-color">ZAMKAI</mark> FSE</h2>
+<h2 class="wp-block-heading has-text-align-center has-zk-alt-text-color has-text-color has-link-color" style="text-decoration:none"><?php echo sprintf( esc_html__( '%s FSE', 'zamkai-fse' ), '<mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-zk-primary-color">' . esc_html__( 'ZAMKAI', 'zamkai-fse' ) . '</mark>' ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
@@ -21,7 +21,7 @@
 <!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 <div class="wp-block-buttons"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Contact Me</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button"><?php echo esc_html__( 'Contact Me', 'zamkai-fse' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column --></div>

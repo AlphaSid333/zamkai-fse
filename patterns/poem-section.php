@@ -12,32 +12,36 @@
 <div class="wp-block-column is-vertically-aligned-center" style="padding-right:10px;padding-left:10px;flex-basis:50%"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"padding":{"bottom":"10px"}}},"layout":{"type":"constrained","contentSize":"490px","justifyContent":"left"}} -->
 <div class="wp-block-group" style="padding-bottom:10px"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|zk-text"}}}},"textColor":"zk-text","fontFamily":"hedvig-letters-serif-regular"} -->
-<h2 class="wp-block-heading has-zk-text-color has-text-color has-link-color has-hedvig-letters-serif-regular-font-family">Built to COnquer</h2>
+<h2 class="wp-block-heading has-zk-text-color has-text-color has-link-color has-hedvig-letters-serif-regular-font-family"><?php echo esc_html__( 'Built to Conquer', 'zamkai-fse' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>In my slowest day, I’m quicker than you.<br>You’re getting started, while I’m already through.<br></p>
+<p><?php echo esc_html__( 'In my slowest day, I’m quicker than you.', 'zamkai-fse' ); ?><br />
+<?php echo esc_html__( 'You’re getting started, while I’m already through.', 'zamkai-fse' ); ?><br /></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Your hardest fall is a bruise to me<br>Your biggest feat is a joke to me.<br></p>
+<p><?php echo esc_html__( 'Your hardest fall is a bruise to me', 'zamkai-fse' ); ?><br />
+<?php echo esc_html__( 'Your biggest feat is a joke to me.', 'zamkai-fse' ); ?><br /></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>I was built to conquer.<br>I can’t stop now.<br></p>
+<p><?php echo esc_html__( 'I was built to conquer.', 'zamkai-fse' ); ?><br />
+<?php echo esc_html__( 'I can’t stop now.', 'zamkai-fse' ); ?><br /></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|zk-text"}}}},"textColor":"zk-text"} -->
-<p class="has-zk-text-color has-text-color has-link-color">You take breaks.<br>While I am up now.<br></p>
+<p class="has-zk-text-color has-text-color has-link-color"><?php echo esc_html__( 'You take breaks.', 'zamkai-fse' ); ?><br />
+<?php echo esc_html__( 'While I am up now.', 'zamkai-fse' ); ?><br /></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"right","style":{"elements":{"link":{"color":{"text":"var:preset|color|zk-text"}}}},"textColor":"zk-text","fontSize":"tiny"} -->
-<p class="has-text-align-right has-zk-text-color has-text-color has-link-color has-tiny-font-size">- Zamkai Master</p>
+<p class="has-text-align-right has-zk-text-color has-text-color has-link-color has-tiny-font-size"><?php echo esc_html__( '- Zamkai Master', 'zamkai-fse' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"width":50,"className":"is-style-fill"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-50 is-style-fill"><a class="wp-block-button__link wp-element-button">More Poems</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-50 is-style-fill"><a class="wp-block-button__link wp-element-button"><?php echo esc_html__( 'More Poems', 'zamkai-fse' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
