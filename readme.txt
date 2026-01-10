@@ -49,8 +49,7 @@ GNU General Public License for more details: http://www.gnu.org/licenses/gpl-2.0
   License: http://scripts.sil.org/OFL
   Source: https://fonts.google.com/specimen/Instrument+Serif
 
-* The Following images in this theme are original works created by the theme author, including those generated with AI tools. They are released under GPLv2 or later (or GPLv3 compatible), the same as the theme itself.
-Copyright ZamkaiMaster, 2026
+* The Following images in this theme are original works created by the theme author, including those generated with AI tools. They are released under the CC0 license. https://creativecommons.org/publicdomain/zero/1.0/
 
     Image: hero.png
     Source: https://zamgodly.com/

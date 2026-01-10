@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "zip": "grunt"
+    "zip": "grunt",
+    "pot": "grunt pot"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,9 @@
   },
   "homepage": "https://github.com/AlphaSid333/zamkai-fse#readme",
   "dependencies": {
+    "grunt-contrib-compress": "^2.0.0",
     "grunt": "^1.6.1",
-    "grunt-contrib-compress": "^2.0.0"
+    "grunt-wp-i18n": "^1.0.4",
+    "load-grunt-tasks": "^5.1.0"
   }
 }
