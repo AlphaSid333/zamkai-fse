@@ -23,9 +23,8 @@ module.exports = function(grunt) {
                     { src: ['patterns/**'], dest: '/' },
                     { src: ['src/**'], dest: '/' },
                     { src: ['templates/**'], dest: '/' },
+                    { src: ['languages/**'], dest: '/' },
 
-                    // Optional: If you have these WordPress.org assets (banner, icon, etc.)
-                    { src: ['.wordpress-org/**'], dest: '/' },
 
                     // Explicit excludes - these will override any includes above
                     { src: ['!node_modules/**'] },
