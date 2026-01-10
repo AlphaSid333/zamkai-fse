@@ -1,4 +1,7 @@
 module.exports = function(grunt) {
+
+    require('load-grunt-tasks')(grunt);
+
     // Project configuration
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
@@ -41,7 +44,25 @@ module.exports = function(grunt) {
                     { src: ['!.*'] } // Excludes all dotfiles like .DS_Store, .editorconfig, etc.
                 ]
             }
+        },
+
+        //POT file generation
+        makepot: {
+      target: {
+        options: {
+          domainPath: '/languages',
+          mainFile: 'style.css',
+          potFilename: 'zamkai-fse.pot',
+          potHeaders: {
+            poedit: true,
+            'x-poedit-keywordslist': true
+          },
+          type: 'wp-theme',
+          updateTimestamp: true,
+          updatePoFiles: false
         }
+      }
+    }
     });
 
     // Load the compress task
@@ -49,4 +70,6 @@ module.exports = function(grunt) {
 
     // Default task: run compress
     grunt.registerTask('default', ['compress']);
+
+    grunt.registerTask('pot', ['makepot']);
 };

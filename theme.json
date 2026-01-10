@@ -295,7 +295,13 @@
     },
     "styles": {
         "spacing": {
-            "blockGap": "var:preset|spacing|x-small"
+            "blockGap": "var:preset|spacing|x-small",
+            "padding": {
+                "top":"0px",
+                "bottom":"0px",
+                "left":"50px",
+                "right":"50px"
+            }
         },
         "blocks": {
             "core/navigation":{

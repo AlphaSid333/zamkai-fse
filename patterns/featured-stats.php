@@ -15,7 +15,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"500","lineHeight":"1.5"},"spacing":{"margin":{"top":"0px","bottom":"1.77rem"}}},"textColor":"zk-alt-text","fontSize":"Normal"} -->
-<p class="has-text-align-center has-zk-alt-text-color has-text-color has-normal-font-size" style="margin-top:0px;margin-bottom:1.77rem;font-style:normal;font-weight:500;line-height:1.5">Battles Conquered</p>
+<p class="has-text-align-center has-zk-alt-text-color has-text-color has-normal-font-size" style="margin-top:0px;margin-bottom:1.77rem;font-style:normal;font-weight:500;line-height:1.5"><?php echo esc_html__( 'Battles Conquered', 'zamkai-fse' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -25,17 +25,17 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"500","lineHeight":"1.5"},"spacing":{"margin":{"top":"0px","bottom":"1.77rem"}}},"textColor":"zk-alt-text","fontSize":"Normal"} -->
-<p class="has-text-align-center has-zk-alt-text-color has-text-color has-normal-font-size" style="margin-top:0px;margin-bottom:1.77rem;font-style:normal;font-weight:500;line-height:1.5">Poems Written</p>
+<p class="has-text-align-center has-zk-alt-text-color has-text-color has-normal-font-size" style="margin-top:0px;margin-bottom:1.77rem;font-style:normal;font-weight:500;line-height:1.5"><?php echo esc_html__( 'Poems Written', 'zamkai-fse' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"style":{"spacing":{"padding":{"right":"1rem","left":"1rem"}}},"layout":{"type":"constrained","contentSize":"13rem"}} -->
 <div class="wp-block-column" style="padding-right:1rem;padding-left:1rem"><!-- wp:heading {"textAlign":"center","level":6,"style":{"typography":{"lineHeight":"1.3","textTransform":"capitalize","fontSize":"2.6rem"},"spacing":{"margin":{"bottom":"0.51rem"}}},"textColor":"zk-primary","fontFamily":"hedvig-letters-serif-regular"} -->
-<h6 class="wp-block-heading has-text-align-center has-zk-primary-color has-text-color has-hedvig-letters-serif-regular-font-family" style="margin-bottom:0.51rem;font-size:2.6rem;line-height:1.3;text-transform:capitalize">1000+</h6>
+<h6 class="wp-block-heading has-text-align-center has-zk-primary-color has-text-color has-hedvig-letters-serif-regular-font-family" style="margin-bottom:0.51rem;font-size:2.6rem;line-height:1.3;text-transform:capitalize">1,000+</h6>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"500","lineHeight":"1.5"},"spacing":{"margin":{"top":"0px","bottom":"1.77rem"}}},"textColor":"zk-alt-text","fontSize":"Normal"} -->
-<p class="has-text-align-center has-zk-alt-text-color has-text-color has-normal-font-size" style="margin-top:0px;margin-bottom:1.77rem;font-style:normal;font-weight:500;line-height:1.5">Hearts Broken</p>
+<p class="has-text-align-center has-zk-alt-text-color has-text-color has-normal-font-size" style="margin-top:0px;margin-bottom:1.77rem;font-style:normal;font-weight:500;line-height:1.5"><?php echo esc_html__( 'Hearts Broken', 'zamkai-fse' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
