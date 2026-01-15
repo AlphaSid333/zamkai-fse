@@ -60,5 +60,5 @@ GNU General Public License for more details: http://www.gnu.org/licenses/gpl-2.0
     License: https://zamgodly.com/about/#license-image 
 
     Image: poem-2.png
-    Source: https://zamgodly.com/2025/09/16/true-to-my-poems/
+    Source: https://zamgodly.com/2024/03/16/the-zamkai-odyssey/
     License: https://zamgodly.com/about/#license-image 
