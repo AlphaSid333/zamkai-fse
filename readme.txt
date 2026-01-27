@@ -10,11 +10,34 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Theme from the Zamkai Master, created with simplicity in mind. A perfect starting point for website creators.
+Theme from the Zamkai Master, created with simplicity in mind. A perfect starting point for website creators that want a basic theme which won't tax their web server. 
+This theme has basic patterns and layouts that can help you jump start with basic WordPress blocks. The theme just defines templates, palettes and patterns. No 'functions.php' here, I have left functionality to the plugins.
+
+Follow me on Twitter: https://x.com/sidgrill
+Subscribe to TechGrill: https://youtube.com/@TheTechGrill
+Subscribe to ThemeGrill: https://youtube.com/@ThemeGrillOfficial
 
 Github repo: https://github.com/AlphaSid333/zamkai-fse
+(You may submit PR's if interested :D)
 
 == Changelog ==
+
+= 1.1.4 =
+* Theme Description update
+
+= 1.1.3 =
+* Finaly LIVE on .org!! 
+* Final changes before getting live on .org
+
+= 1.1.2 =
+* Further .org translation and compatibility fixes
+* Added skip links on templates
+
+= 1.1.1 =
+* .org submission related additions.
+
+= 1.1 =
+* .org security fixes
 
 = 1.0.0 =
 * Initial release

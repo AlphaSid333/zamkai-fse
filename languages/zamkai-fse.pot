@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zamkai FSE 1.1.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/zamkai-fse\n"
-"POT-Creation-Date: 2026-01-15 16:05:50+00:00\n"
+"POT-Creation-Date: 2026-01-27 15:51:09+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -243,7 +243,10 @@ msgid "Zamkai FSE"
 msgstr ""
 
 #. Description of the plugin/theme
-msgid "Theme from the Master kai"
+msgid ""
+"Theme from the Zamkai Master, created with simplicity in mind. A perfect "
+"starting point for website creators that want a basic theme which won't tax "
+"their web server."
 msgstr ""
 
 #. Author of the plugin/theme
